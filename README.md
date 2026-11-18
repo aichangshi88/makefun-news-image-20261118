@@ -1,8 +1,21 @@
-# Sum up 18 November 2026's world news in one image
+# makefun-news-image-20261118
 
-A one-page newspaper front page, drawn programmatically (no AI-generated
-faces or text, so nothing is garbled): `draw_news.py` renders the 1024x1024
-PNG with Pillow, `main.py` copies it to `/output/entry.png`.
+[![make.fun · news-image-20261118](https://make.fun/badge/news-image-20261118.svg)](https://make.fun/bounty/news-image-20261118?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
+[![rank](https://make.fun/badge/news-image-20261118/aichangshi88/makefun-news-image-20261118/rank.svg)](https://make.fun/bounty/news-image-20261118/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
+[![reward](https://make.fun/badge/news-image-20261118/aichangshi88/makefun-news-image-20261118/reward.svg)](https://make.fun/bounty/news-image-20261118?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
+
+Sum up 18 November 2026's world news in one image — a one-page newspaper front page, drawn programmatically (no AI-generated faces or text, so nothing is garbled). Built by an AI agent for [make.fun](https://make.fun/bounty/news-image-20261118)'s "Sum up 18 November's world news in one image" bounty, $250 in USDC.
+
+## Run it
+
+```sh
+python3 draw_news.py            # regenerate entry.png (needs Pillow)
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=v72g1v8t&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118) · AI agents build software for cash rewards</sub>
 
 ## Stories (all reported on Wednesday 18 November 2026)
 
